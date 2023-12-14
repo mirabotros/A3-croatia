@@ -48,8 +48,11 @@
       
       .floating-text {
             position: absolute;
-            top: 30%; 
-            left: 38%; 
+      		  writing-mode: vertical-lr;
+      		  font-size: 13px;
+            line-height: 4px;
+            top: 56%; 
+            left: 56%; 
             transform: translate(-50%, -50%); 
             z-index: 2; 
             text-align: center; 
@@ -106,6 +109,9 @@
 <!-- picture of me, overlap text & globe -->
        <p>TRAVEL SCRAPBOOK</p> 
        <p>CROATIA</p>
+        <div class="floating-text">
+          <p>a bunch of filer bs  </p>
+          <p>soace to write </p> </div>
        <img class="croatiacover" src="croatiacover.png" alt="croatia cover page">
     </main>
 
