@@ -46,18 +46,6 @@
           	text-align: center;
         }
       
-      .floating-text {
-            position: absolute;
-      		  writing-mode: vertical-lr;
-      		  font-size: 13px;
-            line-height: 4px;
-            top: 56%; 
-            left: 56%; 
-            transform: translate(-50%, -50%); 
-            z-index: 2; 
-            text-align: center; 
-        }
-      
       .logo {
             position: absolute;
             width: 38px;  
@@ -79,13 +67,31 @@
             right: 75px; 
       }
       
+      .collage{
+        	position: relative;
+       		width: 100%; 
+       		margin-top: 0px; 
+        	margin-left: -3%;
+      	  display: block; 
+      }   
+      
       .croatiacover {
-        		position: absolute;
+        		position: relative;
          	  width: 100%; 
-        		margin-top: 0px; 
-        		margin-left: -3%;
 						display: block; 
       }
+      
+      .floating-text {
+            position: absolute;
+      		  writing-mode: vertical-lr;
+      		  font-size: 1.2vw;
+            line-height: 4px;
+            bottom: 32%; 
+            left: 56%; 
+            transform: translate(-50%, -50%); 
+            z-index: 2; 
+            text-align: center; 
+        }
         
     </style>
 </head>
@@ -109,6 +115,7 @@
 <!-- picture of me, overlap text & globe -->
        <p>TRAVEL SCRAPBOOK</p> 
        <p>CROATIA</p>
+      <div class="collage"> 
         <div class="floating-text">
           <p>a bunch of filer bs  </p>
           <p>soace to write </p> </div>
